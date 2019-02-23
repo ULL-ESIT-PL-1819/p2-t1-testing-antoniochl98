@@ -1,0 +1,14 @@
+
+*.swp*
+*~
+*.log
+*.dvi 
+*.aux 
+*.blg 
+*.ps 
+*.nav 
+*.out 
+*.snm 
+*.toc
+/data/
+/databases/node_modules
