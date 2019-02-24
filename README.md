@@ -30,7 +30,9 @@ Para desarrollar este programa vamos a necesitar
 * chai (Para escribir el código de los tests,como asserts)
 * cheerio (Para trabajar con el AST de los RDF)
 * node-dir (Para que el programa rdf-to-bulk.js pueda buscar entre un árbol de directorios los ficheros RDF)
-#3.2.ANTES DE EMPEZAR A PROGRAMAR
+
+# 3.2.ANTES DE EMPEZAR A PROGRAMAR
+
 Antes de comenzar a programar, y de empezar a instalar paquetes, para facilitar nuestro trabajo ejecutaremos el siguiente comando
 $ npm init -y
 Esto hará que se cree un fichero `package-lock.json` y un fichero `package.json` con las dependencias de nuestro proyecto para que cuando alguien descargue nuestro proyecto con solo ejecutar `npm i` en la carpeta donde estén situados estos ficheros se instalen todas automáticamente.
