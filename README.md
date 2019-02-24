@@ -33,8 +33,10 @@ Para desarrollar este programa vamos a necesitar
 
 ## 3.2.ANTES DE EMPEZAR A PROGRAMAR
 
-Antes de comenzar a programar, y de empezar a instalar paquetes, para facilitar nuestro trabajo ejecutaremos el siguiente comando
+Antes de comenzar a programar, y de empezar a instalar paquetes, para facilitar nuestro trabajo ejecutaremos el siguiente comando:
+
 $ npm init -y
+
 Esto hará que se cree un fichero `package-lock.json` y un fichero `package.json` con las dependencias de nuestro proyecto para que cuando alguien descargue nuestro proyecto con solo ejecutar `npm i` en la carpeta donde estén situados estos ficheros se instalen todas automáticamente.
 Además en el fichero `package.json` hay un apartado de sccript en el que podrás poner alias a comandos para ejecutarlos de manera más sencilla, nosotros usaremos estos:
 
