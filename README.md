@@ -31,7 +31,7 @@ Para desarrollar este programa vamos a necesitar
 * cheerio (Para trabajar con el AST de los RDF)
 * node-dir (Para que el programa rdf-to-bulk.js pueda buscar entre un árbol de directorios los ficheros RDF)
 
-# 3.2.ANTES DE EMPEZAR A PROGRAMAR
+## 3.2.ANTES DE EMPEZAR A PROGRAMAR
 
 Antes de comenzar a programar, y de empezar a instalar paquetes, para facilitar nuestro trabajo ejecutaremos el siguiente comando
 $ npm init -y
