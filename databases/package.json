@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "test:watch": "mocha --watch --reporter min"	
+    "test:watch": "mocha --watch --reporter min"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
+    "cheerio": "0.22.0",
     "mocha": "^2.4.5"
   }
 }
