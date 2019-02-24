@@ -35,7 +35,10 @@ Antes de comenzar a programar, y de empezar a instalar paquetes, para facilitar 
 $ npm init -y
 Esto hará que se cree un fichero `package-lock.json` y un fichero `package.json` con las dependencias de nuestro proyecto para que cuando alguien descargue nuestro proyecto con solo ejecutar `npm i` en la carpeta donde estén situados estos ficheros se instalen todas automáticamente.
 Además en el fichero `package.json` hay un apartado de sccript en el que podrás poner alias a comandos para ejecutarlos de manera más sencilla, nosotros usaremos estos:
+
 ![ini](./images/scripts-package.png)
+
+
 Que sirven para ejecutar los `fichero.js` de la carpeta `test` una vez, para que se mantenga ejecutando y cada vez que cambie un fichero comprueba si funcionan los tests y para poder ver la ejecución desde `chrome://inspect` respectivamente
 
 
@@ -63,7 +66,8 @@ Debería ser un código como el siguiente:
 ![ini](./images/rdf-to-json.png)
 
 y su salida:
-![ini](./images/output-to-json.png)
+
+![ini](./images/to-json-output.png)
 
 # 4.3.PROGRAMA EJECUTABLE TO BULK
 Ahora procederíamos a crear un programa para que el formateo de RDF a JSON se aplicara a todos los ficheros RDF que descargamos:
